@@ -225,6 +225,89 @@ body {
   margin: auto;
 }
 
+/* ================= CONNECT SECTION ================= */
+
+.connect-section {
+  background: #ffffff;
+  color: #0f172a;
+  padding: 100px 20px;
+}
+
+.connect-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.connect-header span {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  color: #64748b;
+}
+
+.connect-header h2 {
+  font-size: 2.4rem;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.connect-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+/* LEFT IMAGE */
+.connect-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* FORM */
+.connect-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-form input,
+.connect-form textarea {
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.connect-form input:focus,
+.connect-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.connect-form button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #0d6efd;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connect-form button:hover {
+  background: #0b5ed7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+
+
 /* ================= FOOTER ================= */
 .footer {
   text-align: center;
